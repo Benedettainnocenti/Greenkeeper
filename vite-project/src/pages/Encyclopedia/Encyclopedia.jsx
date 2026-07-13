@@ -19,7 +19,7 @@ function Encyclopedia() {
 
 
     const matchesSearch =
-      plant.name
+      plant.commonName
       .toLowerCase()
       .includes(search.toLowerCase());
 

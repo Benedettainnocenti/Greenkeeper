@@ -7,7 +7,7 @@ function PlantCard({ plant, onAdd }) {
 
       <img 
         src={plant.image}
-        alt={plant.name}
+        alt={plant.commonName}
       />
 
       <div className="plant-card-content">
