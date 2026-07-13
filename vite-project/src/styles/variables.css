@@ -1,0 +1,19 @@
+:root {
+  /* Brand colors */
+  --forest-green: #2F5D3A;
+  --sage-green: #8FAF8B;
+  --mint-green: #DCE8D5;
+
+  /* Neutral colors */
+  --cream: #F8F3E7;
+  --earth-brown: #795548;
+  --terracotta: #C87852;
+
+  /* Text */
+  --text-dark: #26352A;
+  --text-light: #FFFFFF;
+
+  /* UI */
+  --border-radius: 16px;
+  --shadow: 0 8px 20px rgba(47, 93, 58, 0.15);
+}
