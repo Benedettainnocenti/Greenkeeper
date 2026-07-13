@@ -1,16 +1,86 @@
-# React + Vite
+# 🌱 GreenKeeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GreenKeeper is a smart plant care assistant built with React.  
+The goal of the project is to help users discover plants, learn how to take care of them, and manage their personal plant collection.
 
-Currently, two official plugins are available:
+The project combines a clean botanical design with interactive features to create a simple and enjoyable plant management experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏡 Landing Page
+- Modern hero section with botanical design
+- Responsive layout
+- Custom color palette inspired by nature
 
-## Expanding the ESLint configuration
+### 🌿 Plant Encyclopedia
+- Browse a collection of plants
+- Search plants by name
+- Filter plants by difficulty level
+- (Coming soon) Detailed plant cards
+- (Coming soon) Add plants to personal collection
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🪴 Personal Garden
+*(Coming soon)*
+- Manage owned plants
+- Track plant information
+- Personalized care reminders
+
+### 🔍 Plant Diagnosis
+*(Coming soon)*
+- Identify possible plant problems
+- Receive care suggestions
+
+---
+
+## 🛠️ Technologies
+
+- React
+- JavaScript (ES6+)
+- React Router
+- CSS3
+- Vite
+- JSON data management
+
+---
+
+## 🎨 Design
+
+GreenKeeper uses a nature-inspired color palette:
+
+- 🌲 Forest Green
+- 🌿 Sage Green
+- 🤍 Cream
+- 🪵 Earth Brown
+- 🧱 Terracotta
+
+The design aims to create a calm, organic and accessible user experience.
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/your-username/greenkeeper.git
+
+cd greenkeeper
+
+npm run dev
+```
+
+📌 Roadmap
+ - React project setup
+ -  Routing system
+ -  Landing page 
+ -  Plant Encyclopedia
+ -  Search and filters
+ -  Plant cards
+ 
+👩‍💻 Author
+
+Created by Benedetta Innocenti
+
+📄 License
+
+This project is currently for educational and portfolio purposes.
