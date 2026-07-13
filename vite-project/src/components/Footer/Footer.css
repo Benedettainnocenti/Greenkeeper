@@ -1,0 +1,8 @@
+@import "../../styles/global.css";
+@import "../../styles/variables.css";
+
+.footer {
+    background-color: var(--forest-green);
+    color: white;
+;
+}

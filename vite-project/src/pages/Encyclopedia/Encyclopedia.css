@@ -1,0 +1,135 @@
+@import "../../styles/global.css";
+@import "../../styles/variables.css";
+
+
+.encyclopedia {
+  min-height: calc(100vh - 80px);
+
+  padding: 60px 40px;
+
+  background-color: var(--cream);
+}
+
+
+/* Titolo */
+
+.encyclopedia h1 {
+  text-align: center;
+
+  color: var(--forest-green);
+
+  font-size: clamp(2rem, 4vw, 3rem);
+
+  margin-bottom: 40px;
+}
+
+
+/* Barra ricerca + filtri */
+
+.filters {
+
+  max-width: 900px;
+
+  margin: 0 auto 50px;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  gap: 20px;
+
+}
+
+
+/* Input */
+
+.filters input,
+.filters select {
+
+  height: 48px;
+
+  padding: 0 18px;
+
+  border-radius: var(--border-radius);
+
+  border: 1px solid var(--sage-green);
+
+  background-color: white;
+
+  color: var(--text-dark);
+
+  font-size: 1rem;
+
+  outline: none;
+
+  transition: all 0.3s ease;
+}
+
+
+.filters input {
+
+  flex: 1;
+
+  max-width: 500px;
+
+}
+
+
+.filters input:focus,
+.filters select:focus {
+
+  border-color: var(--forest-green);
+
+  box-shadow: 0 0 0 3px rgba(47, 93, 58, 0.15);
+
+}
+
+
+/* Grid piante */
+
+.plant-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(280px, 1fr)
+  );
+
+  gap: 30px;
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+}
+
+
+/* Responsive */
+
+@media(max-width: 768px) {
+
+  .encyclopedia {
+
+    padding: 40px 20px;
+
+  }
+
+
+  .filters {
+
+    flex-direction: column;
+
+  }
+
+
+  .filters input,
+  .filters select {
+
+    width: 100%;
+
+  }
+
+}

@@ -1,6 +1,6 @@
 import "./Home.css";
 
-import heroImage from "../../assets/images/greenkeeper-hero-background.svg";
+import heroImage from "/images/greenkeeper-hero-background.svg";
 
 function Home() {
   return (
@@ -29,7 +29,7 @@ function Home() {
 
         <p className="hero-description">
           GreenKeeper helps you understand, monitor and protect
-          your plants with personalized care suggestions.
+          your plants.
         </p>
 
 
@@ -37,6 +37,12 @@ function Home() {
 
           <button className="primary-button">
             Explore plants
+          </button>
+           <button className="primary-button">
+            Add a plant
+          </button>
+          <button className="primary-button">
+            View your plants
           </button>
 
         </div>

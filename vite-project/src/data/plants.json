@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Monstera Deliciosa",
+    "scientificName": "Monstera deliciosa",
+    "category": "Tropical",
+    "difficulty": "Easy",
+    "light": "Indirect light",
+    "water": "Weekly",
+    "image": "../public/images/monstera-deliciosa.jpg",
+    "description": "A tropical plant known for its large leaves and easy care."
+  },
+  {
+    "id": 2,
+    "name": "Snake Plant",
+    "scientificName": "Dracaena trifasciata",
+    "category": "Indoor",
+    "difficulty": "Very Easy",
+    "light": "Low light",
+    "water": "Every 2-3 weeks",
+    "image": "/images/snake-plant.jpg",
+    "description": "A resistant plant perfect for beginners."
+  },
+  {
+    "id": 3,
+    "name": "Fiddle Leaf Fig",
+    "scientificName": "Ficus lyrata",
+    "category": "Tropical",
+    "difficulty": "Medium",
+    "light": "Bright indirect light",
+    "water": "Every 10 days",
+    "image": "/images/ficus.jpg",
+    "description": "A beautiful plant with large violin-shaped leaves."
+  }
+]
