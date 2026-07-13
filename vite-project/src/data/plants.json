@@ -7,7 +7,7 @@
     "category": "Tropical",
     "difficulty": "Easy",
     "description": "A popular tropical houseplant known for its large leaves with natural splits. It is adaptable and beginner-friendly.",
-    "image": "/images/monstera-deliciosa.jpg",
+    "image": "/images/plants/monstera-deliciosa.jpg",
     "care": {
       "light": "Bright indirect light",
       "water": "Once a week",
@@ -25,7 +25,7 @@
     "category": "Indoor",
     "difficulty": "Very Easy",
     "description": "A resilient plant with tall, sword-shaped leaves. Perfect for beginners because it tolerates neglect.",
-    "image": "/images/snake-plant.jpg",
+    "image": "/images/plants/snake-plant.jpg",
     "care": {
       "light": "Low to bright indirect light",
       "water": "Every 2-3 weeks",
@@ -43,7 +43,7 @@
     "category": "Succulent",
     "difficulty": "Easy",
     "description": "A succulent plant famous for its medicinal gel and its ability to survive with little water.",
-    "image": "/images/aloe-vera.jpg",
+    "image": "/images/plants/aloe-vera.jpg",
     "care": {
       "light": "Bright direct light",
       "water": "Every 2-3 weeks",
@@ -61,7 +61,7 @@
     "category": "Tropical",
     "difficulty": "Medium",
     "description": "An elegant indoor tree with large violin-shaped leaves. It requires consistent care.",
-    "image": "/images/ficus.jpg",
+    "image": "/images/plants/ficus.jpg",
     "care": {
       "light": "Bright indirect light",
       "water": "Every 7-10 days",
@@ -79,7 +79,7 @@
     "category": "Outdoor",
     "difficulty": "Medium",
     "description": "A fragrant Mediterranean plant loved for its purple flowers and relaxing scent.",
-    "image": "/images/lavender.jpg",
+    "image": "/images/plants/lavender.jpg",
     "care": {
       "light": "Full sunlight",
       "water": "When soil is dry",
