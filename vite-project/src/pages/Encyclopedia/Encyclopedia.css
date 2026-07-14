@@ -133,3 +133,27 @@
   }
 
 }
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 9999px;
+  border: 1px solid var(--sage-green);
+  background-color: #ffffff;
+  color: #4a4a4a;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.filter-chip:hover {
+  background-color: #f0f7f0;
+}
+
+.filter-chip.active {
+  background-color: #dcefdc;
+  border-color: var(--sage-green);
+  color: #2f5233;
+}
