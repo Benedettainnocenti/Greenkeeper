@@ -1,4 +1,5 @@
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 import heroImage from "/images/greenkeeper-hero-background.svg";
 
@@ -34,10 +35,12 @@ function Home() {
 
 
         <div className="hero-buttons">
-
-          <button className="primary-button">
-            Explore plants
-          </button>
+          <Link to="/encyclopedia">
+            <button className="primary-button">
+            Explora plants
+            </button>
+          </Link>
+    
            <button className="primary-button">
             Add a plant
           </button>
