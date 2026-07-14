@@ -42,7 +42,7 @@ function Home() {
             Add a plant
           </button>
           <button className="primary-button">
-            View your plants
+            Join community
           </button>
 
         </div>

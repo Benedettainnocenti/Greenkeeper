@@ -1,0 +1,206 @@
+/* ==========================
+   PLANT DETAILS
+========================== */
+
+.plant-details {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+/* ==========================
+   BACK BUTTON
+========================== */
+
+.back-btn {
+  display: inline-block;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  color: #2f855a;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.back-btn:hover {
+  color: #22543d;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0,0,0,.08);
+  margin-bottom: 2.5rem;
+}
+
+.hero-image {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.hero-info {
+  flex: 1;
+}
+
+.hero-info h1 {
+  font-size: 2.5rem;
+  color: #22543d;
+  margin-bottom: .5rem;
+}
+
+.hero-info h3 {
+  color: #6b7280;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.hero-info p {
+  line-height: 1.7;
+  color: #444;
+}
+
+/* ==========================
+   GRID
+========================== */
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* ==========================
+   CARDS
+========================== */
+
+.card {
+  background: white;
+  border-radius: 18px;
+  padding: 1.8rem;
+  box-shadow: 0 5px 18px rgba(0,0,0,.07);
+  transition: .3s;
+  margin-bottom: 1.5rem;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h2 {
+  margin-bottom: 1.2rem;
+  color: #2f855a;
+  font-size: 1.4rem;
+}
+
+.card p {
+  margin-bottom: .8rem;
+  line-height: 1.6;
+}
+
+.card strong {
+  color: #1f2937;
+}
+
+/* ==========================
+   LISTS
+========================== */
+
+.card ul {
+  margin-top: .8rem;
+  padding-left: 1.2rem;
+}
+
+.card li {
+  margin-bottom: .7rem;
+  line-height: 1.5;
+}
+
+/* ==========================
+   BADGES
+========================== */
+
+.badge {
+  display: inline-block;
+  padding: .35rem .8rem;
+  border-radius: 50px;
+  background: #d8f3dc;
+  color: #2d6a4f;
+  font-size: .85rem;
+  font-weight: 600;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}
+
+/* ==========================
+   NOT FOUND
+========================== */
+
+.plant-details-not-found {
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.plant-details-not-found button {
+  margin-top: 1rem;
+  border: none;
+  background: #2f855a;
+  color: white;
+  padding: .8rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.plant-details-not-found button:hover {
+  background: #22543d;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width: 900px) {
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .plant-details {
+    padding: 1rem;
+  }
+
+  .hero {
+    padding: 1.2rem;
+  }
+
+  .hero-info h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    padding: 1.2rem;
+  }
+
+}

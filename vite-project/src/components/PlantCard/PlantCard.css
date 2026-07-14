@@ -10,6 +10,9 @@
 
   position: relative;
 
+  display: flex;
+  flex-direction: column;
+
   transition: 
     transform 0.3s ease,
     box-shadow 0.3s ease;
@@ -47,6 +50,10 @@
 .plant-card-content {
 
   padding: 25px;
+
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 
 }
 
@@ -125,33 +132,29 @@
 
 
 /* Bottone aggiungi */
+.card-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: auto;
+  padding-top: 25px;
+}
 
 .add-button {
 
-  position: absolute;
-
-  right: 20px;
-
-  bottom: 20px;
-
-
   width: 45px;
-
   height: 45px;
 
-
   border-radius: 50%;
-
 
   background-color: var(--forest-green);
 
   color: white;
 
-
   font-size: 1.8rem;
 
   font-weight: 300;
-
 
   display: flex;
 
@@ -159,8 +162,11 @@
 
   justify-content: center;
 
+  border: none;
 
-  transition: 
+  cursor: pointer;
+
+  transition:
     background-color 0.3s ease,
     transform 0.3s ease;
 
@@ -175,4 +181,50 @@
 
   transform: rotate(90deg);
 
+}
+
+.discover-more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 22px;
+
+  background-color: var(--forest-green);
+  color: white;
+
+  border: none;
+  border-radius: 25px;
+
+  font-size: 0.95rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+  box-shadow: 0 4px 10px rgba(79, 138, 75, 0.25);
+}
+
+.discover-more-btn:hover {
+  background-color: var(--terracotta);
+  transform: translateY(-2px);
+
+  box-shadow: 0 6px 15px rgba(79, 138, 75, 0.35);
+}
+
+.discover-more-btn:active {
+  transform: translateY(0);
+}
+
+.discover-more-btn::after {
+  content: "→";
+  margin-left: 8px;
+  font-size: 1.1rem;
+
+  transition: transform 0.3s ease;
+}
+
+.discover-more-btn:hover::after {
+  transform: translateX(4px);
 }

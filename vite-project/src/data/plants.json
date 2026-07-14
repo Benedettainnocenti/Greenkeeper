@@ -12,10 +12,37 @@
       "light": "Bright indirect light",
       "water": "Once a week",
       "humidity": "High",
-      "temperature": "18-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "monstera-deliciosa",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Monstera Deliciosa is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 2,
@@ -30,10 +57,37 @@
       "light": "Low to bright indirect light",
       "water": "Every 2-3 weeks",
       "humidity": "Low",
-      "temperature": "15-30°C",
-      "soil": "Dry, well-draining soil"
+      "temperature": "15-30\u00b0C",
+      "soil": "Dry, well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "snake-plant",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Snake Plant is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 3,
@@ -48,10 +102,37 @@
       "light": "Bright direct light",
       "water": "Every 2-3 weeks",
       "humidity": "Low",
-      "temperature": "13-27°C",
-      "soil": "Sandy cactus soil"
+      "temperature": "13-27\u00b0C",
+      "soil": "Sandy cactus soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "aloe-vera",
+    "origin": "Southern Africa",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Aloe Vera is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 4,
@@ -66,10 +147,37 @@
       "light": "Bright indirect light",
       "water": "Every 7-10 days",
       "humidity": "Medium",
-      "temperature": "18-25°C",
-      "soil": "Rich well-draining soil"
+      "temperature": "18-25\u00b0C",
+      "soil": "Rich well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "fiddle-leaf-fig",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Fiddle Leaf Fig is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 5,
@@ -84,10 +192,37 @@
       "light": "Full sunlight",
       "water": "When soil is dry",
       "humidity": "Low",
-      "temperature": "15-30°C",
-      "soil": "Dry alkaline soil"
+      "temperature": "15-30\u00b0C",
+      "soil": "Dry alkaline soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "lavender",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Lavender is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 6,
@@ -102,10 +237,37 @@
       "light": "Low to bright indirect light",
       "water": "Every 7-10 days",
       "humidity": "Medium",
-      "temperature": "18-29°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-29\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "pothos",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Pothos is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 7,
@@ -120,10 +282,37 @@
       "light": "Low to medium indirect light",
       "water": "Once a week",
       "humidity": "High",
-      "temperature": "18-27°C",
-      "soil": "Moist well-draining soil"
+      "temperature": "18-27\u00b0C",
+      "soil": "Moist well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "peace-lily",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Peace Lily is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 8,
@@ -138,10 +327,37 @@
       "light": "Bright indirect light",
       "water": "Once a week",
       "humidity": "Medium",
-      "temperature": "15-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "15-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "spider-plant",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Spider Plant is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 9,
@@ -156,10 +372,37 @@
       "light": "Low to bright indirect light",
       "water": "Every 2-3 weeks",
       "humidity": "Low",
-      "temperature": "18-26°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-26\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "zz-plant",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "ZZ Plant is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 10,
@@ -174,10 +417,37 @@
       "light": "Bright indirect light",
       "water": "Every 7-10 days",
       "humidity": "Medium",
-      "temperature": "18-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "rubber-plant",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Rubber Plant is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 11,
@@ -192,10 +462,37 @@
       "light": "Bright indirect light",
       "water": "Twice a week",
       "humidity": "High",
-      "temperature": "16-24°C",
-      "soil": "Moist peaty soil"
+      "temperature": "16-24\u00b0C",
+      "soil": "Moist peaty soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "boston-fern",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Boston Fern is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 12,
@@ -210,10 +507,37 @@
       "light": "Bright indirect light",
       "water": "Once a week",
       "humidity": "Medium",
-      "temperature": "13-24°C",
-      "soil": "Well-draining soil"
+      "temperature": "13-24\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "english-ivy",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "English Ivy is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 13,
@@ -228,10 +552,37 @@
       "light": "Bright direct light",
       "water": "Every 2-3 weeks",
       "humidity": "Low",
-      "temperature": "15-24°C",
-      "soil": "Sandy cactus soil"
+      "temperature": "15-24\u00b0C",
+      "soil": "Sandy cactus soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "jade-plant",
+    "origin": "Southern Africa",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Jade Plant is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 14,
@@ -246,10 +597,37 @@
       "light": "Bright direct light",
       "water": "Every 2 weeks",
       "humidity": "Low",
-      "temperature": "18-26°C",
-      "soil": "Sandy cactus soil"
+      "temperature": "18-26\u00b0C",
+      "soil": "Sandy cactus soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "echeveria",
+    "origin": "Southern Africa",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Echeveria is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 15,
@@ -264,10 +642,37 @@
       "light": "Full sunlight",
       "water": "Every 3-4 weeks",
       "humidity": "Low",
-      "temperature": "18-32°C",
-      "soil": "Sandy cactus soil"
+      "temperature": "18-32\u00b0C",
+      "soil": "Sandy cactus soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "barrel-cactus",
+    "origin": "Southern Africa",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Barrel Cactus is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 16,
@@ -282,10 +687,37 @@
       "light": "Bright direct light",
       "water": "Every 2-3 weeks",
       "humidity": "Low",
-      "temperature": "18-24°C",
-      "soil": "Sandy cactus soil"
+      "temperature": "18-24\u00b0C",
+      "soil": "Sandy cactus soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "string-of-pearls",
+    "origin": "Southern Africa",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "String of Pearls is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 17,
@@ -300,10 +732,37 @@
       "light": "Full sunlight",
       "water": "Every 2-3 days",
       "humidity": "Medium",
-      "temperature": "18-30°C",
-      "soil": "Rich well-draining soil"
+      "temperature": "18-30\u00b0C",
+      "soil": "Rich well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "basil",
+    "origin": "Mediterranean Region",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Basil is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 18,
@@ -318,10 +777,37 @@
       "light": "Partial sun",
       "water": "Every 2-3 days",
       "humidity": "Medium",
-      "temperature": "15-25°C",
-      "soil": "Moist rich soil"
+      "temperature": "15-25\u00b0C",
+      "soil": "Moist rich soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "mint",
+    "origin": "Mediterranean Region",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Mint is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 19,
@@ -336,10 +822,37 @@
       "light": "Full sunlight",
       "water": "When soil is dry",
       "humidity": "Low",
-      "temperature": "15-28°C",
-      "soil": "Dry well-draining soil"
+      "temperature": "15-28\u00b0C",
+      "soil": "Dry well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "rosemary",
+    "origin": "Mediterranean Region",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Rosemary is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 20,
@@ -354,10 +867,37 @@
       "light": "Full sunlight",
       "water": "When soil is dry",
       "humidity": "Low",
-      "temperature": "15-27°C",
-      "soil": "Dry well-draining soil"
+      "temperature": "15-27\u00b0C",
+      "soil": "Dry well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "thyme",
+    "origin": "Mediterranean Region",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Thyme is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 21,
@@ -372,10 +912,37 @@
       "light": "Bright indirect light",
       "water": "Once a week",
       "humidity": "High",
-      "temperature": "18-27°C",
-      "soil": "Orchid bark mix"
+      "temperature": "18-27\u00b0C",
+      "soil": "Orchid bark mix",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "orchid",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Orchid is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 22,
@@ -390,10 +957,37 @@
       "light": "Medium indirect light",
       "water": "Once a week",
       "humidity": "High",
-      "temperature": "18-26°C",
-      "soil": "Moist well-draining soil"
+      "temperature": "18-26\u00b0C",
+      "soil": "Moist well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "calathea",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Calathea is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 23,
@@ -408,10 +1002,37 @@
       "light": "Bright direct light",
       "water": "Once a week",
       "humidity": "Medium",
-      "temperature": "18-29°C",
-      "soil": "Rich well-draining soil"
+      "temperature": "18-29\u00b0C",
+      "soil": "Rich well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "bird-of-paradise",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Bird of Paradise is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 24,
@@ -426,10 +1047,37 @@
       "light": "Bright indirect light",
       "water": "Once a week",
       "humidity": "High",
-      "temperature": "18-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "areca-palm",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Areca Palm is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 25,
@@ -444,10 +1092,37 @@
       "light": "Low to bright indirect light",
       "water": "Once a week",
       "humidity": "Medium",
-      "temperature": "18-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "philodendron-heartleaf",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Philodendron Heartleaf is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 26,
@@ -462,10 +1137,37 @@
       "light": "Bright indirect light",
       "water": "Once a week",
       "humidity": "Medium",
-      "temperature": "15-25°C",
-      "soil": "Well-draining soil"
+      "temperature": "15-25\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "chinese-money-plant",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Chinese Money Plant is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 27,
@@ -480,10 +1182,37 @@
       "light": "Bright direct light",
       "water": "Once a week",
       "humidity": "High",
-      "temperature": "18-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "croton",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Croton is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 28,
@@ -498,10 +1227,37 @@
       "light": "Bright indirect light",
       "water": "Every 2 weeks",
       "humidity": "Medium",
-      "temperature": "18-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "dracaena-marginata",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Dracaena Marginata is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 29,
@@ -516,10 +1272,37 @@
       "light": "Low to medium indirect light",
       "water": "Once a week",
       "humidity": "Medium",
-      "temperature": "18-24°C",
-      "soil": "Moist well-draining soil"
+      "temperature": "18-24\u00b0C",
+      "soil": "Moist well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "bamboo-palm",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Bamboo Palm is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 30,
@@ -534,10 +1317,37 @@
       "light": "Bright indirect light",
       "water": "Every 4-5 days",
       "humidity": "Medium",
-      "temperature": "18-24°C",
-      "soil": "Light peaty soil"
+      "temperature": "18-24\u00b0C",
+      "soil": "Light peaty soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "african-violet",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "African Violet is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 31,
@@ -552,10 +1362,37 @@
       "light": "Bright indirect light",
       "water": "Every 2-3 weeks",
       "humidity": "Low",
-      "temperature": "15-26°C",
-      "soil": "Sandy cactus soil"
+      "temperature": "15-26\u00b0C",
+      "soil": "Sandy cactus soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "succulent-haworthia",
+    "origin": "Southern Africa",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Succulent Haworthia is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 32,
@@ -570,10 +1407,37 @@
       "light": "Low indirect light",
       "water": "Every 2 weeks",
       "humidity": "Low",
-      "temperature": "10-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "10-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "cast-iron-plant",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Cast Iron Plant is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 33,
@@ -588,10 +1452,37 @@
       "light": "Bright indirect light",
       "water": "Every 7-10 days",
       "humidity": "Medium",
-      "temperature": "18-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "money-tree",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Money Tree is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 34,
@@ -606,10 +1497,37 @@
       "light": "Bright indirect light",
       "water": "Twice a week (misting)",
       "humidity": "Medium",
-      "temperature": "18-27°C",
-      "soil": "None (soil-free)"
+      "temperature": "18-27\u00b0C",
+      "soil": "None (soil-free)",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "air-plant",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Air Plant is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 35,
@@ -624,10 +1542,37 @@
       "light": "Medium indirect light",
       "water": "Once a week",
       "humidity": "High",
-      "temperature": "18-24°C",
-      "soil": "Moist well-draining soil"
+      "temperature": "18-24\u00b0C",
+      "soil": "Moist well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "prayer-plant",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Prayer Plant is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 36,
@@ -642,10 +1587,37 @@
       "light": "Low to bright indirect light",
       "water": "Every 3 weeks",
       "humidity": "Low",
-      "temperature": "15-30°C",
-      "soil": "Sandy well-draining soil"
+      "temperature": "15-30\u00b0C",
+      "soil": "Sandy well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "sansevieria-cylindrica",
+    "origin": "Southern Africa",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Sansevieria Cylindrica is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 37,
@@ -660,10 +1632,37 @@
       "light": "Bright indirect light",
       "water": "Once a week",
       "humidity": "High",
-      "temperature": "18-27°C",
-      "soil": "Well-draining aroid mix"
+      "temperature": "18-27\u00b0C",
+      "soil": "Well-draining aroid mix",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": false,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "anthurium",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Anthurium is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 38,
@@ -678,10 +1677,37 @@
       "light": "Full sunlight",
       "water": "Twice a week",
       "humidity": "Medium",
-      "temperature": "15-27°C",
-      "soil": "Rich well-draining soil"
+      "temperature": "15-27\u00b0C",
+      "soil": "Rich well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "rose",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Rose is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 39,
@@ -696,10 +1722,37 @@
       "light": "Partial sun",
       "water": "Twice a week",
       "humidity": "Medium",
-      "temperature": "15-25°C",
-      "soil": "Moist rich soil"
+      "temperature": "15-25\u00b0C",
+      "soil": "Moist rich soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": false,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "hydrangea",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Hydrangea is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 40,
@@ -714,10 +1767,37 @@
       "light": "Full sunlight",
       "water": "Every 2-3 days",
       "humidity": "Low",
-      "temperature": "18-30°C",
-      "soil": "Rich well-draining soil"
+      "temperature": "18-30\u00b0C",
+      "soil": "Rich well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "sunflower",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Sunflower is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 41,
@@ -732,10 +1812,37 @@
       "light": "Full sunlight",
       "water": "Once a week",
       "humidity": "Low",
-      "temperature": "7-20°C",
-      "soil": "Well-draining soil"
+      "temperature": "7-20\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": false,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "tulip",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Tulip is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 42,
@@ -750,10 +1857,37 @@
       "light": "Full sunlight",
       "water": "Twice a week",
       "humidity": "Low",
-      "temperature": "15-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "15-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": false,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "geranium",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Geranium is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 43,
@@ -768,10 +1902,37 @@
       "light": "Partial sun",
       "water": "Twice a week",
       "humidity": "Medium",
-      "temperature": "10-24°C",
-      "soil": "Acidic well-draining soil"
+      "temperature": "10-24\u00b0C",
+      "soil": "Acidic well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "camellia",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Camellia is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 44,
@@ -786,10 +1947,37 @@
       "light": "Partial to full sun",
       "water": "Once a week",
       "humidity": "Low",
-      "temperature": "5-27°C",
-      "soil": "Well-draining soil"
+      "temperature": "5-27\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": false,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "boxwood",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Boxwood is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 45,
@@ -804,10 +1992,37 @@
       "light": "Full sunlight",
       "water": "Once a week",
       "humidity": "Low",
-      "temperature": "18-30°C",
-      "soil": "Dry well-draining soil"
+      "temperature": "18-30\u00b0C",
+      "soil": "Dry well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": false,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "bougainvillea",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Bougainvillea is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 46,
@@ -822,10 +2037,37 @@
       "light": "Full sunlight",
       "water": "Every 1-2 weeks",
       "humidity": "Low",
-      "temperature": "10-30°C",
-      "soil": "Dry well-draining soil"
+      "temperature": "10-30\u00b0C",
+      "soil": "Dry well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": false
+    },
+    "slug": "olive-tree",
+    "origin": "Europe",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Olive Tree is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 47,
@@ -840,10 +2082,37 @@
       "light": "Bright direct light",
       "water": "Keep soil constantly moist",
       "humidity": "High",
-      "temperature": "13-27°C",
-      "soil": "Peat and sand mix, nutrient-free"
+      "temperature": "13-27\u00b0C",
+      "soil": "Peat and sand mix, nutrient-free",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "venus-flytrap",
+    "origin": "Unknown",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Venus Flytrap is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 48,
@@ -858,10 +2127,37 @@
       "light": "Full sunlight",
       "water": "Every 2-3 days",
       "humidity": "Medium",
-      "temperature": "20-30°C",
-      "soil": "Rich well-draining soil"
+      "temperature": "20-30\u00b0C",
+      "soil": "Rich well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "basil-thai",
+    "origin": "Mediterranean Region",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Basil Thai is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 49,
@@ -876,10 +2172,37 @@
       "light": "Low to medium indirect light",
       "water": "Once a week",
       "humidity": "Medium",
-      "temperature": "18-24°C",
-      "soil": "Well-draining soil"
+      "temperature": "18-24\u00b0C",
+      "soil": "Well-draining soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": true,
+      "indoor": true
+    },
+    "slug": "parlor-palm",
+    "origin": "Central & South America",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Parlor Palm is appreciated by plant enthusiasts around the world."
   },
   {
     "id": 50,
@@ -894,9 +2217,36 @@
       "light": "Bright indirect light",
       "water": "Once a week",
       "humidity": "Medium",
-      "temperature": "18-24°C",
-      "soil": "Well-draining cactus soil"
+      "temperature": "18-24\u00b0C",
+      "soil": "Well-draining cactus soil",
+      "fertilizer": "Monthly during spring and summer",
+      "repotting": "Every 2 years"
     },
-    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+    "features": {
+      "petSafe": true,
+      "airPurifying": false,
+      "indoor": true
+    },
+    "slug": "christmas-cactus",
+    "origin": "Southern Africa",
+    "growth": {
+      "rate": "Medium",
+      "height": "0.5-2 m",
+      "flowering": "Seasonal",
+      "lifespan": "10+ years"
+    },
+    "propagation": "Cuttings or division",
+    "toxicity": "See petSafe field",
+    "commonProblems": [
+      "Yellow leaves",
+      "Root rot",
+      "Brown leaf tips"
+    ],
+    "tips": [
+      "Avoid overwatering.",
+      "Ensure proper drainage.",
+      "Rotate the pot regularly."
+    ],
+    "interestingFact": "Christmas Cactus is appreciated by plant enthusiasts around the world."
   }
 ]

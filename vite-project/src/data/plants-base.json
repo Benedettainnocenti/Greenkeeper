@@ -1,0 +1,902 @@
+[
+  {
+    "id": 1,
+    "commonName": "Monstera Deliciosa",
+    "scientificName": "Monstera deliciosa",
+    "family": "Araceae",
+    "category": "Tropical",
+    "difficulty": "Easy",
+    "description": "A popular tropical houseplant known for its large leaves with natural splits. It is adaptable and beginner-friendly.",
+    "image": "/images/plants/monstera-deliciosa.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Once a week",
+      "humidity": "High",
+      "temperature": "18-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 2,
+    "commonName": "Snake Plant",
+    "scientificName": "Dracaena trifasciata",
+    "family": "Asparagaceae",
+    "category": "Indoor",
+    "difficulty": "Very Easy",
+    "description": "A resilient plant with tall, sword-shaped leaves. Perfect for beginners because it tolerates neglect.",
+    "image": "/images/plants/snake-plant.jpg",
+    "care": {
+      "light": "Low to bright indirect light",
+      "water": "Every 2-3 weeks",
+      "humidity": "Low",
+      "temperature": "15-30°C",
+      "soil": "Dry, well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 3,
+    "commonName": "Aloe Vera",
+    "scientificName": "Aloe barbadensis miller",
+    "family": "Asphodelaceae",
+    "category": "Succulent",
+    "difficulty": "Easy",
+    "description": "A succulent plant famous for its medicinal gel and its ability to survive with little water.",
+    "image": "/images/plants/aloe-vera.jpg",
+    "care": {
+      "light": "Bright direct light",
+      "water": "Every 2-3 weeks",
+      "humidity": "Low",
+      "temperature": "13-27°C",
+      "soil": "Sandy cactus soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 4,
+    "commonName": "Fiddle Leaf Fig",
+    "scientificName": "Ficus lyrata",
+    "family": "Moraceae",
+    "category": "Tropical",
+    "difficulty": "Medium",
+    "description": "An elegant indoor tree with large violin-shaped leaves. It requires consistent care.",
+    "image": "/images/plants/ficus.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Every 7-10 days",
+      "humidity": "Medium",
+      "temperature": "18-25°C",
+      "soil": "Rich well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 5,
+    "commonName": "Lavender",
+    "scientificName": "Lavandula angustifolia",
+    "family": "Lamiaceae",
+    "category": "Outdoor",
+    "difficulty": "Medium",
+    "description": "A fragrant Mediterranean plant loved for its purple flowers and relaxing scent.",
+    "image": "/images/plants/lavender.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "When soil is dry",
+      "humidity": "Low",
+      "temperature": "15-30°C",
+      "soil": "Dry alkaline soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 6,
+    "commonName": "Pothos",
+    "scientificName": "Epipremnum aureum",
+    "family": "Araceae",
+    "category": "Indoor",
+    "difficulty": "Very Easy",
+    "description": "A trailing vine with heart-shaped leaves, extremely tolerant of low light and irregular watering.",
+    "image": "/images/plants/pothos.jpg",
+    "care": {
+      "light": "Low to bright indirect light",
+      "water": "Every 7-10 days",
+      "humidity": "Medium",
+      "temperature": "18-29°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 7,
+    "commonName": "Peace Lily",
+    "scientificName": "Spathiphyllum wallisii",
+    "family": "Araceae",
+    "category": "Indoor",
+    "difficulty": "Easy",
+    "description": "A shade-loving plant with glossy leaves and elegant white flowers, known for signaling thirst by drooping.",
+    "image": "/images/plants/peace-lily.jpg",
+    "care": {
+      "light": "Low to medium indirect light",
+      "water": "Once a week",
+      "humidity": "High",
+      "temperature": "18-27°C",
+      "soil": "Moist well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 8,
+    "commonName": "Spider Plant",
+    "scientificName": "Chlorophytum comosum",
+    "family": "Asparagaceae",
+    "category": "Indoor",
+    "difficulty": "Very Easy",
+    "description": "A fast-growing plant with arching striped leaves that produces small plantlets on long stems.",
+    "image": "/images/plants/spider-plant.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Once a week",
+      "humidity": "Medium",
+      "temperature": "15-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 9,
+    "commonName": "ZZ Plant",
+    "scientificName": "Zamioculcas zamiifolia",
+    "family": "Araceae",
+    "category": "Indoor",
+    "difficulty": "Very Easy",
+    "description": "A glossy-leaved plant that stores water in its rhizomes, making it extremely drought-tolerant.",
+    "image": "/images/plants/zz-plant.jpg",
+    "care": {
+      "light": "Low to bright indirect light",
+      "water": "Every 2-3 weeks",
+      "humidity": "Low",
+      "temperature": "18-26°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 10,
+    "commonName": "Rubber Plant",
+    "scientificName": "Ficus elastica",
+    "family": "Moraceae",
+    "category": "Tropical",
+    "difficulty": "Easy",
+    "description": "A sturdy houseplant with thick, glossy dark green leaves that can grow into a small tree indoors.",
+    "image": "/images/plants/rubber-plant.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Every 7-10 days",
+      "humidity": "Medium",
+      "temperature": "18-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 11,
+    "commonName": "Boston Fern",
+    "scientificName": "Nephrolepis exaltata",
+    "family": "Nephrolepidaceae",
+    "category": "Tropical",
+    "difficulty": "Medium",
+    "description": "A lush fern with feathery fronds that thrives in humid environments like bathrooms.",
+    "image": "/images/plants/boston-fern.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Twice a week",
+      "humidity": "High",
+      "temperature": "16-24°C",
+      "soil": "Moist peaty soil"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 12,
+    "commonName": "English Ivy",
+    "scientificName": "Hedera helix",
+    "family": "Araliaceae",
+    "category": "Indoor",
+    "difficulty": "Easy",
+    "description": "A classic trailing vine with lobed leaves, often grown on trellises or as hanging foliage.",
+    "image": "/images/plants/english-ivy.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Once a week",
+      "humidity": "Medium",
+      "temperature": "13-24°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 13,
+    "commonName": "Jade Plant",
+    "scientificName": "Crassula ovata",
+    "family": "Crassulaceae",
+    "category": "Succulent",
+    "difficulty": "Easy",
+    "description": "A long-lived succulent with thick, oval leaves, often considered a symbol of good luck.",
+    "image": "/images/plants/jade-plant.jpg",
+    "care": {
+      "light": "Bright direct light",
+      "water": "Every 2-3 weeks",
+      "humidity": "Low",
+      "temperature": "15-24°C",
+      "soil": "Sandy cactus soil"
+    },
+    "features": { "petSafe": false, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 14,
+    "commonName": "Echeveria",
+    "scientificName": "Echeveria elegans",
+    "family": "Crassulaceae",
+    "category": "Succulent",
+    "difficulty": "Easy",
+    "description": "A rosette-forming succulent with pastel-colored, fleshy leaves that is popular in arrangements.",
+    "image": "/images/plants/echeveria.jpg",
+    "care": {
+      "light": "Bright direct light",
+      "water": "Every 2 weeks",
+      "humidity": "Low",
+      "temperature": "18-26°C",
+      "soil": "Sandy cactus soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 15,
+    "commonName": "Barrel Cactus",
+    "scientificName": "Echinocactus grusonii",
+    "family": "Cactaceae",
+    "category": "Succulent",
+    "difficulty": "Very Easy",
+    "description": "A round, spiny cactus native to Mexico that requires very little water and full sun.",
+    "image": "/images/plants/barrel-cactus.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "Every 3-4 weeks",
+      "humidity": "Low",
+      "temperature": "18-32°C",
+      "soil": "Sandy cactus soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 16,
+    "commonName": "String of Pearls",
+    "scientificName": "Curio rowleyanus",
+    "family": "Asteraceae",
+    "category": "Succulent",
+    "difficulty": "Medium",
+    "description": "A trailing succulent with bead-like leaves, ideal for hanging baskets in bright light.",
+    "image": "/images/plants/string-of-pearls.jpg",
+    "care": {
+      "light": "Bright direct light",
+      "water": "Every 2-3 weeks",
+      "humidity": "Low",
+      "temperature": "18-24°C",
+      "soil": "Sandy cactus soil"
+    },
+    "features": { "petSafe": false, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 17,
+    "commonName": "Basil",
+    "scientificName": "Ocimum basilicum",
+    "family": "Lamiaceae",
+    "category": "Herb",
+    "difficulty": "Easy",
+    "description": "A fragrant culinary herb that grows quickly in warm, sunny spots and needs regular watering.",
+    "image": "/images/plants/basil.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "Every 2-3 days",
+      "humidity": "Medium",
+      "temperature": "18-30°C",
+      "soil": "Rich well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 18,
+    "commonName": "Mint",
+    "scientificName": "Mentha spicata",
+    "family": "Lamiaceae",
+    "category": "Herb",
+    "difficulty": "Very Easy",
+    "description": "A vigorous, aromatic herb that spreads quickly and thrives in moist soil.",
+    "image": "/images/plants/mint.jpg",
+    "care": {
+      "light": "Partial sun",
+      "water": "Every 2-3 days",
+      "humidity": "Medium",
+      "temperature": "15-25°C",
+      "soil": "Moist rich soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 19,
+    "commonName": "Rosemary",
+    "scientificName": "Salvia rosmarinus",
+    "family": "Lamiaceae",
+    "category": "Herb",
+    "difficulty": "Medium",
+    "description": "A woody, fragrant Mediterranean herb that prefers dry soil and lots of sunlight.",
+    "image": "/images/plants/rosemary.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "When soil is dry",
+      "humidity": "Low",
+      "temperature": "15-28°C",
+      "soil": "Dry well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 20,
+    "commonName": "Thyme",
+    "scientificName": "Thymus vulgaris",
+    "family": "Lamiaceae",
+    "category": "Herb",
+    "difficulty": "Easy",
+    "description": "A low-growing, hardy herb with small aromatic leaves used widely in cooking.",
+    "image": "/images/plants/thyme.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "When soil is dry",
+      "humidity": "Low",
+      "temperature": "15-27°C",
+      "soil": "Dry well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 21,
+    "commonName": "Orchid",
+    "scientificName": "Phalaenopsis amabilis",
+    "family": "Orchidaceae",
+    "category": "Tropical",
+    "difficulty": "Medium",
+    "description": "An elegant flowering plant prized for its long-lasting blooms, grown in bark rather than soil.",
+    "image": "/images/plants/orchid.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Once a week",
+      "humidity": "High",
+      "temperature": "18-27°C",
+      "soil": "Orchid bark mix"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 22,
+    "commonName": "Calathea",
+    "scientificName": "Calathea orbifolia",
+    "family": "Marantaceae",
+    "category": "Tropical",
+    "difficulty": "Hard",
+    "description": "A striking plant with patterned leaves that fold up at night, requiring consistent humidity.",
+    "image": "/images/plants/calathea.jpg",
+    "care": {
+      "light": "Medium indirect light",
+      "water": "Once a week",
+      "humidity": "High",
+      "temperature": "18-26°C",
+      "soil": "Moist well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 23,
+    "commonName": "Bird of Paradise",
+    "scientificName": "Strelitzia reginae",
+    "family": "Strelitziaceae",
+    "category": "Tropical",
+    "difficulty": "Medium",
+    "description": "A dramatic tropical plant with large banana-like leaves and vibrant orange-blue flowers when mature.",
+    "image": "/images/plants/bird-of-paradise.jpg",
+    "care": {
+      "light": "Bright direct light",
+      "water": "Once a week",
+      "humidity": "Medium",
+      "temperature": "18-29°C",
+      "soil": "Rich well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 24,
+    "commonName": "Areca Palm",
+    "scientificName": "Dypsis lutescens",
+    "family": "Arecaceae",
+    "category": "Tropical",
+    "difficulty": "Medium",
+    "description": "A feathery-leaved palm that adds a tropical feel to any room and helps purify the air.",
+    "image": "/images/plants/areca-palm.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Once a week",
+      "humidity": "High",
+      "temperature": "18-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 25,
+    "commonName": "Philodendron Heartleaf",
+    "scientificName": "Philodendron hederaceum",
+    "family": "Araceae",
+    "category": "Tropical",
+    "difficulty": "Very Easy",
+    "description": "A trailing vine with glossy heart-shaped leaves, very forgiving of inconsistent watering.",
+    "image": "/images/plants/philodendron-heartleaf.jpg",
+    "care": {
+      "light": "Low to bright indirect light",
+      "water": "Once a week",
+      "humidity": "Medium",
+      "temperature": "18-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 26,
+    "commonName": "Chinese Money Plant",
+    "scientificName": "Pilea peperomioides",
+    "family": "Urticaceae",
+    "category": "Indoor",
+    "difficulty": "Easy",
+    "description": "A quirky plant with round, coin-shaped leaves on thin stems, easy to propagate.",
+    "image": "/images/plants/chinese-money-plant.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Once a week",
+      "humidity": "Medium",
+      "temperature": "15-25°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 27,
+    "commonName": "Croton",
+    "scientificName": "Codiaeum variegatum",
+    "family": "Euphorbiaceae",
+    "category": "Tropical",
+    "difficulty": "Medium",
+    "description": "A colorful plant with bold, multicolored leaves that needs bright light to keep its vibrant hues.",
+    "image": "/images/plants/croton.jpg",
+    "care": {
+      "light": "Bright direct light",
+      "water": "Once a week",
+      "humidity": "High",
+      "temperature": "18-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 28,
+    "commonName": "Dracaena Marginata",
+    "scientificName": "Dracaena marginata",
+    "family": "Asparagaceae",
+    "category": "Indoor",
+    "difficulty": "Easy",
+    "description": "A slender plant with spiky, thin leaves and a distinctive twisted trunk, tolerant of neglect.",
+    "image": "/images/plants/dracaena-marginata.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Every 2 weeks",
+      "humidity": "Medium",
+      "temperature": "18-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 29,
+    "commonName": "Bamboo Palm",
+    "scientificName": "Chamaedorea seifrizii",
+    "family": "Arecaceae",
+    "category": "Tropical",
+    "difficulty": "Easy",
+    "description": "A compact palm with slender, cane-like stems, well suited to low-light indoor spaces.",
+    "image": "/images/plants/bamboo-palm.jpg",
+    "care": {
+      "light": "Low to medium indirect light",
+      "water": "Once a week",
+      "humidity": "Medium",
+      "temperature": "18-24°C",
+      "soil": "Moist well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 30,
+    "commonName": "African Violet",
+    "scientificName": "Saintpaulia ionantha",
+    "family": "Gesneriaceae",
+    "category": "Indoor",
+    "difficulty": "Medium",
+    "description": "A compact flowering plant with fuzzy leaves and small purple, pink, or white blooms.",
+    "image": "/images/plants/african-violet.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Every 4-5 days",
+      "humidity": "Medium",
+      "temperature": "18-24°C",
+      "soil": "Light peaty soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 31,
+    "commonName": "Succulent Haworthia",
+    "scientificName": "Haworthia fasciata",
+    "family": "Asphodelaceae",
+    "category": "Succulent",
+    "difficulty": "Very Easy",
+    "description": "A small, striped succulent that tolerates low light better than most succulents, great for desks.",
+    "image": "/images/plants/haworthia.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Every 2-3 weeks",
+      "humidity": "Low",
+      "temperature": "15-26°C",
+      "soil": "Sandy cactus soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 32,
+    "commonName": "Cast Iron Plant",
+    "scientificName": "Aspidistra elatior",
+    "family": "Asparagaceae",
+    "category": "Indoor",
+    "difficulty": "Very Easy",
+    "description": "An extremely tough plant with dark green leaves that survives poor light and neglect, hence its name.",
+    "image": "/images/plants/cast-iron-plant.jpg",
+    "care": {
+      "light": "Low indirect light",
+      "water": "Every 2 weeks",
+      "humidity": "Low",
+      "temperature": "10-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 33,
+    "commonName": "Money Tree",
+    "scientificName": "Pachira aquatica",
+    "family": "Malvaceae",
+    "category": "Tropical",
+    "difficulty": "Easy",
+    "description": "A braided-trunk plant believed to bring good luck, with glossy palmate leaves.",
+    "image": "/images/plants/money-tree.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Every 7-10 days",
+      "humidity": "Medium",
+      "temperature": "18-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 34,
+    "commonName": "Air Plant",
+    "scientificName": "Tillandsia ionantha",
+    "family": "Bromeliaceae",
+    "category": "Indoor",
+    "difficulty": "Easy",
+    "description": "A soil-free plant that absorbs water and nutrients through its leaves, ideal for creative displays.",
+    "image": "/images/plants/air-plant.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Twice a week (misting)",
+      "humidity": "Medium",
+      "temperature": "18-27°C",
+      "soil": "None (soil-free)"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 35,
+    "commonName": "Prayer Plant",
+    "scientificName": "Maranta leuconeura",
+    "family": "Marantaceae",
+    "category": "Tropical",
+    "difficulty": "Medium",
+    "description": "A patterned-leaf plant that folds its leaves upward at night, resembling praying hands.",
+    "image": "/images/plants/prayer-plant.jpg",
+    "care": {
+      "light": "Medium indirect light",
+      "water": "Once a week",
+      "humidity": "High",
+      "temperature": "18-24°C",
+      "soil": "Moist well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 36,
+    "commonName": "Sansevieria Cylindrica",
+    "scientificName": "Dracaena angolensis",
+    "family": "Asparagaceae",
+    "category": "Succulent",
+    "difficulty": "Very Easy",
+    "description": "A striking plant with cylindrical, spear-like leaves, extremely tolerant of drought.",
+    "image": "/images/plants/sansevieria-cylindrica.jpg",
+    "care": {
+      "light": "Low to bright indirect light",
+      "water": "Every 3 weeks",
+      "humidity": "Low",
+      "temperature": "15-30°C",
+      "soil": "Sandy well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 37,
+    "commonName": "Anthurium",
+    "scientificName": "Anthurium andraeanum",
+    "family": "Araceae",
+    "category": "Tropical",
+    "difficulty": "Medium",
+    "description": "A tropical plant known for its glossy heart-shaped spathes in red, pink, or white.",
+    "image": "/images/plants/anthurium.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Once a week",
+      "humidity": "High",
+      "temperature": "18-27°C",
+      "soil": "Well-draining aroid mix"
+    },
+    "features": { "petSafe": false, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 38,
+    "commonName": "Rose",
+    "scientificName": "Rosa spp.",
+    "family": "Rosaceae",
+    "category": "Outdoor",
+    "difficulty": "Medium",
+    "description": "A classic flowering shrub prized for its fragrant blooms, requiring regular sun and pruning.",
+    "image": "/images/plants/rose.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "Twice a week",
+      "humidity": "Medium",
+      "temperature": "15-27°C",
+      "soil": "Rich well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 39,
+    "commonName": "Hydrangea",
+    "scientificName": "Hydrangea macrophylla",
+    "family": "Hydrangeaceae",
+    "category": "Outdoor",
+    "difficulty": "Medium",
+    "description": "A shrub with large clusters of blue, pink, or white flowers, whose color depends on soil pH.",
+    "image": "/images/plants/hydrangea.jpg",
+    "care": {
+      "light": "Partial sun",
+      "water": "Twice a week",
+      "humidity": "Medium",
+      "temperature": "15-25°C",
+      "soil": "Moist rich soil"
+    },
+    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 40,
+    "commonName": "Sunflower",
+    "scientificName": "Helianthus annuus",
+    "family": "Asteraceae",
+    "category": "Outdoor",
+    "difficulty": "Easy",
+    "description": "A tall, fast-growing annual known for its large yellow flower heads that track the sun.",
+    "image": "/images/plants/sunflower.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "Every 2-3 days",
+      "humidity": "Low",
+      "temperature": "18-30°C",
+      "soil": "Rich well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 41,
+    "commonName": "Tulip",
+    "scientificName": "Tulipa gesneriana",
+    "family": "Liliaceae",
+    "category": "Outdoor",
+    "difficulty": "Easy",
+    "description": "A spring-blooming bulb plant with cup-shaped flowers in many bright colors.",
+    "image": "/images/plants/tulip.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "Once a week",
+      "humidity": "Low",
+      "temperature": "7-20°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 42,
+    "commonName": "Geranium",
+    "scientificName": "Pelargonium x hortorum",
+    "family": "Geraniaceae",
+    "category": "Outdoor",
+    "difficulty": "Easy",
+    "description": "A popular bedding and balcony plant with clusters of bright flowers and scented leaves.",
+    "image": "/images/plants/geranium.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "Twice a week",
+      "humidity": "Low",
+      "temperature": "15-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 43,
+    "commonName": "Camellia",
+    "scientificName": "Camellia japonica",
+    "family": "Theaceae",
+    "category": "Outdoor",
+    "difficulty": "Medium",
+    "description": "An evergreen shrub with glossy leaves and rose-like flowers, preferring acidic soil.",
+    "image": "/images/plants/camellia.jpg",
+    "care": {
+      "light": "Partial sun",
+      "water": "Twice a week",
+      "humidity": "Medium",
+      "temperature": "10-24°C",
+      "soil": "Acidic well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 44,
+    "commonName": "Boxwood",
+    "scientificName": "Buxus sempervirens",
+    "family": "Buxaceae",
+    "category": "Outdoor",
+    "difficulty": "Easy",
+    "description": "A dense evergreen shrub commonly used for hedges and topiary in formal gardens.",
+    "image": "/images/plants/boxwood.jpg",
+    "care": {
+      "light": "Partial to full sun",
+      "water": "Once a week",
+      "humidity": "Low",
+      "temperature": "5-27°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 45,
+    "commonName": "Bougainvillea",
+    "scientificName": "Bougainvillea glabra",
+    "family": "Nyctaginaceae",
+    "category": "Outdoor",
+    "difficulty": "Medium",
+    "description": "A vigorous climbing vine with vivid papery bracts in pink, purple, orange, or red.",
+    "image": "/images/plants/bougainvillea.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "Once a week",
+      "humidity": "Low",
+      "temperature": "18-30°C",
+      "soil": "Dry well-draining soil"
+    },
+    "features": { "petSafe": false, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 46,
+    "commonName": "Olive Tree",
+    "scientificName": "Olea europaea",
+    "family": "Oleaceae",
+    "category": "Outdoor",
+    "difficulty": "Easy",
+    "description": "A drought-tolerant Mediterranean tree with silvery-green leaves, can also be grown in large pots.",
+    "image": "/images/plants/olive-tree.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "Every 1-2 weeks",
+      "humidity": "Low",
+      "temperature": "10-30°C",
+      "soil": "Dry well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": false }
+  },
+  {
+    "id": 47,
+    "commonName": "Venus Flytrap",
+    "scientificName": "Dionaea muscipula",
+    "family": "Droseraceae",
+    "category": "Carnivorous",
+    "difficulty": "Hard",
+    "description": "A famous carnivorous plant with hinged traps that snap shut to catch small insects.",
+    "image": "/images/plants/venus-flytrap.jpg",
+    "care": {
+      "light": "Bright direct light",
+      "water": "Keep soil constantly moist",
+      "humidity": "High",
+      "temperature": "13-27°C",
+      "soil": "Peat and sand mix, nutrient-free"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 48,
+    "commonName": "Basil Thai",
+    "scientificName": "Ocimum basilicum var. thyrsiflora",
+    "family": "Lamiaceae",
+    "category": "Herb",
+    "difficulty": "Easy",
+    "description": "A spicier, anise-scented basil variety popular in Southeast Asian cooking.",
+    "image": "/images/plants/thai-basil.jpg",
+    "care": {
+      "light": "Full sunlight",
+      "water": "Every 2-3 days",
+      "humidity": "Medium",
+      "temperature": "20-30°C",
+      "soil": "Rich well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  },
+  {
+    "id": 49,
+    "commonName": "Parlor Palm",
+    "scientificName": "Chamaedorea elegans",
+    "family": "Arecaceae",
+    "category": "Tropical",
+    "difficulty": "Easy",
+    "description": "A compact, low-maintenance palm that tolerates low light, popular since Victorian times.",
+    "image": "/images/plants/parlor-palm.jpg",
+    "care": {
+      "light": "Low to medium indirect light",
+      "water": "Once a week",
+      "humidity": "Medium",
+      "temperature": "18-24°C",
+      "soil": "Well-draining soil"
+    },
+    "features": { "petSafe": true, "airPurifying": true, "indoor": true }
+  },
+  {
+    "id": 50,
+    "commonName": "Christmas Cactus",
+    "scientificName": "Schlumbergera bridgesii",
+    "family": "Cactaceae",
+    "category": "Succulent",
+    "difficulty": "Easy",
+    "description": "A jointed-stem cactus that produces bright tubular flowers around the winter holidays.",
+    "image": "/images/plants/christmas-cactus.jpg",
+    "care": {
+      "light": "Bright indirect light",
+      "water": "Once a week",
+      "humidity": "Medium",
+      "temperature": "18-24°C",
+      "soil": "Well-draining cactus soil"
+    },
+    "features": { "petSafe": true, "airPurifying": false, "indoor": true }
+  }
+]
