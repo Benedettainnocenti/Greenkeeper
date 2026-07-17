@@ -18,6 +18,10 @@ function Navbar() {
         <Link to="/encyclopedia">
           Encyclopedia
         </Link>
+       
+        <Link to="/myplants">
+        My Plants
+        </Link>
 
         <Link to="/about">
           About

@@ -6,6 +6,7 @@ import About from "./pages/About/About";
 import PlantsDetails from "./pages/plantsDetails/plantsDetails";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+import MyPlants from "./pages/myPlants/MyPlants";
 
 
 function App() {
@@ -18,11 +19,15 @@ function App() {
         <Route path="/encyclopedia" element={<Encyclopedia />} />
         <Route path="/about" element={<About />} />
         <Route path="/plants/:slug" element={<PlantsDetails />}/>
+        <Route path="/myplants" element={<MyPlants />} />
       </Routes>
-
-      <Footer />
     </>
   );
 }
 
 export default App;
+
+
+
+
+  

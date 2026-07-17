@@ -1,0 +1,67 @@
+.myplants {
+  min-height: 100vh;
+  padding: 120px 8% 60px;
+  background: #f5faf6;
+}
+
+.myplants h1 {
+  font-size: 2.5rem;
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+.myplants-subtitle {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.plants-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+.empty-state {
+  max-width: 500px;
+  margin: 5rem auto;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  padding: 3rem 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.empty-state p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.empty-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .myplants {
+    padding: 100px 5% 40px;
+  }
+
+  .myplants h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .myplants-subtitle {
+    text-align: center;
+  }
+
+  .plants-grid {
+    grid-template-columns: 1fr;
+  }
+}
