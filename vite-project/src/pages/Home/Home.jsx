@@ -37,7 +37,7 @@ function Home() {
         <div className="hero-buttons">
           <Link to="/encyclopedia">
             <button className="primary-button">
-            Explora plants
+            Explore plants
             </button>
           </Link>
     
