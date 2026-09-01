@@ -1,5 +1,6 @@
 import { usePlants } from "../../context/PlantsContext";
 import PlantCard from "../../components/PlantCard/PlantCard";
+import plants from "../../data/plants.json";
 
 function MyPlants() {
 
@@ -14,12 +15,18 @@ function MyPlants() {
         <p>You haven't added any plants yet.</p>
       ) : (
         <div className="plants-grid">
-          {myPlants.map((plant) => (
-            <PlantCard
-              key={plant.id}
-              plant={plant}
-            />
-          ))}
+          {myPlants.map((userPlant) => {
+  const species = plants.find(
+    (plant) => plant.id === userPlant.speciesId
+  );
+
+  return (
+    <PlantCard
+      key={userPlant.id}
+      plant={species}
+    />
+  );
+})}
         </div>
       )}
 
