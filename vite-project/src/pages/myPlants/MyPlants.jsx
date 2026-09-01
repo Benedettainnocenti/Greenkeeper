@@ -1,33 +1,70 @@
+import { Link } from "react-router-dom";
 import { usePlants } from "../../context/PlantsContext";
-import PlantCard from "../../components/PlantCard/PlantCard";
 import plants from "../../data/plants.json";
+import MyPlantCard from "../../components/MyPlantCard/MyplantCard.jsx";
+import "./MyPlants.css";
 
 function MyPlants() {
-
   const { myPlants } = usePlants();
 
   return (
-    <main className="myplants">
+    <main className="my-plants-page">
 
-      <h1>🌿 My Plants</h1>
+      <header className="my-plants-header">
+
+        <h1>My Garden 🌿</h1>
+
+        <p>
+          Manage and take care of your plants.
+        </p>
+
+      </header>
 
       {myPlants.length === 0 ? (
-        <p>You haven't added any plants yet.</p>
-      ) : (
-        <div className="plants-grid">
-          {myPlants.map((userPlant) => {
-  const species = plants.find(
-    (plant) => plant.id === userPlant.speciesId
-  );
 
-  return (
-    <PlantCard
-      key={userPlant.id}
-      plant={species}
-    />
-  );
-})}
-        </div>
+        <section className="empty-garden">
+
+          <h2>Your garden is empty 🌱</h2>
+
+          <p>
+            Start building your personal garden
+            by adding your first plant.
+          </p>
+
+          <Link to="/plants">
+            <button>
+              Explore plants
+            </button>
+          </Link>
+
+        </section>
+
+      ) : (
+
+        <section className="my-plants-grid">
+
+          {myPlants.map((userPlant) => {
+
+            const species = plants.find(
+              (plant) =>
+                plant.id === userPlant.speciesId
+            );
+
+            if (!species) {
+              return null;
+            }
+
+            return (
+              <MyPlantCard
+                key={userPlant.id}
+                userPlant={userPlant}
+                species={species}
+              />
+            );
+          })}
+
+        </section>
+
       )}
 
     </main>
