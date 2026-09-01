@@ -1,11 +1,17 @@
 import { useParams, Link } from "react-router-dom";
 import plants from "../../data/plants.json";
+import { usePlants } from "../../context/PlantsContext";
+import { useState } from "react";
 import "./PlantsDetails.css";
 
 function PlantDetails() {
   const { slug } = useParams();
 
   const plant = plants.find((p) => p.slug === slug);
+
+  const { addPlant, myPlants } = usePlants();
+
+  const [showMessage, setShowMessage] = useState(false);
 
   if (!plant) {
     return (
@@ -17,6 +23,24 @@ function PlantDetails() {
         </Link>
       </div>
     );
+  }
+
+  const isAlreadyAdded = myPlants.some(
+    (userPlant) => userPlant.speciesId === plant.id
+  );
+
+  function handleAddPlant() {
+    if (isAlreadyAdded) {
+      return;
+    }
+
+    addPlant(plant);
+
+    setShowMessage(true);
+
+    setTimeout(() => {
+      setShowMessage(false);
+    }, 2000);
   }
 
   return (
@@ -42,6 +66,22 @@ function PlantDetails() {
 
           <p>{plant.description}</p>
 
+          <button
+            className="add-button"
+            onClick={handleAddPlant}
+            disabled={isAlreadyAdded}
+          >
+            {isAlreadyAdded
+              ? "✓ Added to My Plants"
+              : "+ Add to My Plants"}
+          </button>
+
+          {showMessage && (
+            <div className="added-message">
+              🌿 Plant added successfully!
+            </div>
+          )}
+
         </div>
 
       </section>
@@ -49,97 +89,171 @@ function PlantDetails() {
       <section className="info-grid">
 
         <div className="card">
+
           <h2>General Information</h2>
 
-          <p><strong>Family:</strong> {plant.family}</p>
+          <p>
+            <strong>Family:</strong>{" "}
+            {plant.family}
+          </p>
 
-          <p><strong>Origin:</strong> {plant.origin}</p>
+          <p>
+            <strong>Origin:</strong>{" "}
+            {plant.origin}
+          </p>
 
-          <p><strong>Category:</strong> {plant.category}</p>
+          <p>
+            <strong>Category:</strong>{" "}
+            {plant.category}
+          </p>
 
-          <p><strong>Difficulty:</strong> {plant.difficulty}</p>
+          <p>
+            <strong>Difficulty:</strong>{" "}
+            {plant.difficulty}
+          </p>
 
-          <p><strong>Indoor:</strong> {plant.features.indoor ? "Yes" : "No"}</p>
+          <p>
+            <strong>Indoor:</strong>{" "}
+            {plant.features.indoor ? "Yes" : "No"}
+          </p>
 
-          <p><strong>Pet Safe:</strong> {plant.features.petSafe ? "Yes" : "No"}</p>
+          <p>
+            <strong>Pet Safe:</strong>{" "}
+            {plant.features.petSafe ? "Yes" : "No"}
+          </p>
 
-          <p><strong>Air Purifying:</strong> {plant.features.airPurifying ? "Yes" : "No"}</p>
+          <p>
+            <strong>Air Purifying:</strong>{" "}
+            {plant.features.airPurifying
+              ? "Yes"
+              : "No"}
+          </p>
 
-          <p><strong>Toxicity:</strong> {plant.toxicity}</p>
+          <p>
+            <strong>Toxicity:</strong>{" "}
+            {plant.toxicity}
+          </p>
 
         </div>
+
 
         <div className="card">
 
           <h2>Care</h2>
 
-          <p><strong>☀️ Light:</strong> {plant.care.light}</p>
+          <p>
+            <strong>☀️ Light:</strong>{" "}
+            {plant.care.light}
+          </p>
 
-          <p><strong>💧 Water:</strong> {plant.care.water}</p>
+          <p>
+            <strong>💧 Water:</strong>{" "}
+            {plant.care.water}
+          </p>
 
-          <p><strong>💦 Humidity:</strong> {plant.care.humidity}</p>
+          <p>
+            <strong>💦 Humidity:</strong>{" "}
+            {plant.care.humidity}
+          </p>
 
-          <p><strong>🌡 Temperature:</strong> {plant.care.temperature}</p>
+          <p>
+            <strong>🌡 Temperature:</strong>{" "}
+            {plant.care.temperature}
+          </p>
 
-          <p><strong>🪴 Soil:</strong> {plant.care.soil}</p>
+          <p>
+            <strong>🪴 Soil:</strong>{" "}
+            {plant.care.soil}
+          </p>
 
-          <p><strong>🌱 Fertilizer:</strong> {plant.care.fertilizer}</p>
+          <p>
+            <strong>🌱 Fertilizer:</strong>{" "}
+            {plant.care.fertilizer}
+          </p>
 
-          <p><strong>🪴 Repotting:</strong> {plant.care.repotting}</p>
+          <p>
+            <strong>🪴 Repotting:</strong>{" "}
+            {plant.care.repotting}
+          </p>
 
         </div>
+
 
         <div className="card">
 
           <h2>Growth</h2>
 
-          <p><strong>Growth Rate:</strong> {plant.growth.rate}</p>
+          <p>
+            <strong>Growth Rate:</strong>{" "}
+            {plant.growth.rate}
+          </p>
 
-          <p><strong>Height:</strong> {plant.growth.height}</p>
+          <p>
+            <strong>Height:</strong>{" "}
+            {plant.growth.height}
+          </p>
 
-          <p><strong>Flowering:</strong> {plant.growth.flowering}</p>
+          <p>
+            <strong>Flowering:</strong>{" "}
+            {plant.growth.flowering}
+          </p>
 
-          <p><strong>Lifespan:</strong> {plant.growth.lifespan}</p>
+          <p>
+            <strong>Lifespan:</strong>{" "}
+            {plant.growth.lifespan}
+          </p>
 
-          <p><strong>Propagation:</strong> {plant.propagation}</p>
+          <p>
+            <strong>Propagation:</strong>{" "}
+            {plant.propagation}
+          </p>
 
         </div>
 
       </section>
+
 
       <section className="card">
 
         <h2>Common Problems</h2>
 
         <ul>
-
-          {plant.commonProblems.map((problem, index) => (
-            <li key={index}>{problem}</li>
-          ))}
-
+          {plant.commonProblems.map(
+            (problem, index) => (
+              <li key={index}>
+                {problem}
+              </li>
+            )
+          )}
         </ul>
 
       </section>
+
 
       <section className="card">
 
         <h2>Tips</h2>
 
         <ul>
-
-          {plant.tips.map((tip, index) => (
-            <li key={index}>{tip}</li>
-          ))}
-
+          {plant.tips.map(
+            (tip, index) => (
+              <li key={index}>
+                {tip}
+              </li>
+            )
+          )}
         </ul>
 
       </section>
+
 
       <section className="card">
 
         <h2>Interesting Fact</h2>
 
-        <p>{plant.interestingFact}</p>
+        <p>
+          {plant.interestingFact}
+        </p>
 
       </section>
 
