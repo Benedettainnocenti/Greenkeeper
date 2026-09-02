@@ -9,28 +9,41 @@ The project combines a clean botanical design with interactive features to creat
 
 ## ✨ Features
 
-### 🏡 Landing Page
-- Modern hero section with botanical design
-- Responsive layout
-- Custom color palette inspired by nature
+🌱 Browse a plant encyclopedia
 
-### 🌿 Plant Encyclopedia
-- Browse a collection of plants
-- Search plants by name
-- Filter plants by difficulty level
-- (Coming soon) Detailed plant cards
-- (Coming soon) Add plants to personal collection
+🔎 Search and filter plants
 
-### 🪴 Personal Garden
-*(Coming soon)*
-- Manage owned plants
-- Track plant information
-- Personalized care reminders
+📖 View detailed information about each species
 
-### 🔍 Plant Diagnosis
-*(Coming soon)*
-- Identify possible plant problems
-- Receive care suggestions
+🪴 Add plants to your personal garden
+
+💾 Persist your plants using local storage
+
+💧 Track watering activities
+
+📋 Keep a history of plant care
+
+🏡 Manage your personal plant collection
+
+---
+
+## 🚧 Work in Progress
+
+GreenKeeper is an ongoing project. Planned features include:
+
+🔔 Smart care reminders
+
+📅 Watering and fertilizing schedules
+
+📊 Plant care statistics
+
+🩺 Plant health and problem diagnosis
+
+✏️ Editing personal plant information
+
+👤 User accounts and authentication
+
+🗄️ Backend and database integration
 
 ---
 
