@@ -1,67 +1,133 @@
-.myplants {
-  min-height: 100vh;
-  padding: 120px 8% 60px;
-  background: #f5faf6;
+.my-plants-page {
+  min-height: calc(100vh - 80px);
+  background-color: #f7f3e8;
+  padding: 60px 40px;
+  box-sizing: border-box;
 }
 
-.myplants h1 {
-  font-size: 2.5rem;
-  color: #2e7d32;
-  margin-bottom: 0.5rem;
+/* Header della pagina */
+.my-plants-header {
+  max-width: 1100px;
+  margin: 0 auto 40px;
 }
 
-.myplants-subtitle {
-  color: #666;
-  font-size: 1rem;
-  margin-bottom: 2rem;
+.my-plants-header h1 {
+  margin: 0;
+  color: #264d36;
+  font-size: 2.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
-.plants-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
+.my-plants-header p {
+  margin: 10px 0 0;
+  color: #526457;
+  font-size: 1.1rem;
 }
 
-.empty-state {
-  max-width: 500px;
-  margin: 5rem auto;
+/* Empty state */
+.empty-garden {
+  max-width: 650px;
+  margin: 70px auto 0;
+  padding: 55px 45px;
+  background-color: #fffdf7;
+  border: 1px solid #e3dfd0;
+  border-radius: 24px;
   text-align: center;
-  background: white;
-  border-radius: 20px;
-  padding: 3rem 2rem;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 8px 30px rgba(38, 77, 54, 0.08);
 }
 
-.empty-state h2 {
-  color: #2e7d32;
-  margin-bottom: 1rem;
+/* Icona */
+.empty-garden-icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto 25px;
+  border-radius: 50%;
+  background-color: #e5f0df;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 3.5rem;
 }
 
-.empty-state p {
-  color: #666;
+/* Titolo */
+.empty-garden h2 {
+  margin: 0 0 12px;
+  color: #264d36;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* Testo */
+.empty-garden p {
+  max-width: 480px;
+  margin: 0 auto 30px;
+  color: #66736a;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
-.empty-icon {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+/* Bottone */
+.empty-garden-button {
+  display: inline-block;
+  padding: 13px 28px;
+
+  background-color: #3f754d;
+  color: white;
+
+  border-radius: 10px;
+  text-decoration: none;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 
+.empty-garden-button:hover {
+  background-color: #315e3d;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(38, 77, 54, 0.2);
+}
+
+.empty-garden-button:active {
+  transform: translateY(0);
+}
+
+/* Responsive */
 @media (max-width: 768px) {
-  .myplants {
-    padding: 100px 5% 40px;
+  .my-plants-page {
+    padding: 40px 20px;
   }
 
-  .myplants h1 {
-    font-size: 2rem;
-    text-align: center;
+  .my-plants-header h1 {
+    font-size: 2.2rem;
   }
 
-  .myplants-subtitle {
-    text-align: center;
+  .empty-garden {
+    margin-top: 45px;
+    padding: 40px 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .my-plants-header h1 {
+    font-size: 1.9rem;
   }
 
-  .plants-grid {
-    grid-template-columns: 1fr;
+  .empty-garden h2 {
+    font-size: 1.5rem;
+  }
+
+  .empty-garden-button {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
